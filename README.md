@@ -1,4 +1,32 @@
-# MedicalForm
+# Medical Checkup Form Component
+
+This component provides a user-friendly interface for filling out medical checkup forms. It includes fields for name, age, gender, address, diagnosis, contact information, personal history, family history, and pain score.
+
+## Installation
+
+To install the necessary packages for this component, run the following commands:
+
+```bash
+npm install @angular/material
+npm install @ng-select/ng-select
+```
+
+## Usage
+
+1. Import `MatFormFieldModule`, `CommonModule`, `NgSelectModule`, and `ReactiveFormsModule` in your Angular module.
+2. Use the `EvaluationComponent` selector in your HTML template to include the medical checkup form.
+
+```html
+<app-evaluation></app-evaluation>
+```
+
+## Component Features
+
+- Form validation for required fields and specific patterns.
+- Maximum character limit for the name field (1 to 50 characters).
+- Error messages displayed for invalid input.
+- Resizable textarea with a maximum height for personal and family history.
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
 
